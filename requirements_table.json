@@ -250,7 +250,7 @@
   "staff": [
     {
       "column_name": "picture",
-      "data_type": "bytea"
+      "data_type": "object"
     },
     {
       "column_name": "address_id",
