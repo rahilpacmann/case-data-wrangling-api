@@ -370,7 +370,7 @@
     },
     {
       "column_name": "special_features",
-      "data_type": "ARRAY"
+      "data_type": "object"
     }
   ]
 }
