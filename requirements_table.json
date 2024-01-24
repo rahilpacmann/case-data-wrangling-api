@@ -126,7 +126,7 @@
     },
     {
       "column_name": "create_date",
-      "data_type": "date"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "last_update",
@@ -142,7 +142,7 @@
     },
     {
       "column_name": "activebool",
-      "data_type": "boolean"
+      "data_type": "bool"
     },
     {
       "column_name": "first_name",
@@ -262,7 +262,7 @@
     },
     {
       "column_name": "active",
-      "data_type": "boolean"
+      "data_type": "bool"
     },
     {
       "column_name": "last_update",
@@ -322,11 +322,11 @@
   "film": [
     {
       "column_name": "fulltext",
-      "data_type": "tsvector"
+      "data_type": "object"
     },
     {
       "column_name": "rating",
-      "data_type": "USER-DEFINED"
+      "data_type": "object"
     },
     {
       "column_name": "last_update",
@@ -366,7 +366,7 @@
     },
     {
       "column_name": "description",
-      "data_type": "text"
+      "data_type": "object"
     },
     {
       "column_name": "special_features",
