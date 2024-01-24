@@ -2,127 +2,127 @@
   "actor": [
     {
       "column_name": "actor_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "first_name",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "last_name",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "store": [
     {
       "column_name": "store_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "manager_staff_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "address_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     }
   ],
   "address": [
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "city_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "address_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "district",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "phone",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "postal_code",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "address",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "address2",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "category": [
     {
       "column_name": "category_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "name",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "city": [
     {
       "column_name": "city_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "country_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "city",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "country": [
     {
       "column_name": "country_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "country",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "customer": [
     {
       "column_name": "active",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "store_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "create_date",
@@ -130,15 +130,15 @@
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "customer_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "address_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "activebool",
@@ -146,105 +146,105 @@
     },
     {
       "column_name": "first_name",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "last_name",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "email",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "film_actor": [
     {
       "column_name": "actor_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "film_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     }
   ],
   "film_category": [
     {
       "column_name": "film_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "category_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     }
   ],
   "inventory": [
     {
       "column_name": "inventory_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "film_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "store_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     }
   ],
   "language": [
     {
       "column_name": "language_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "name",
-      "data_type": "character"
+      "data_type": "object"
     }
   ],
   "rental": [
     {
       "column_name": "rental_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "rental_date",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "inventory_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "customer_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "return_date",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "staff_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     }
   ],
   "staff": [
@@ -254,11 +254,11 @@
     },
     {
       "column_name": "address_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "store_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "active",
@@ -266,57 +266,57 @@
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "staff_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "first_name",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "last_name",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "password",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "email",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "username",
-      "data_type": "character varying"
+      "data_type": "object"
     }
   ],
   "payment": [
     {
       "column_name": "payment_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "customer_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "staff_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "rental_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "amount",
-      "data_type": "numeric"
+      "data_type": "float64"
     },
     {
       "column_name": "payment_date",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     }
   ],
   "film": [
@@ -330,39 +330,39 @@
     },
     {
       "column_name": "last_update",
-      "data_type": "timestamp without time zone"
+      "data_type": "datetime64[ns]"
     },
     {
       "column_name": "film_id",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "release_year",
-      "data_type": "integer"
+      "data_type": "int64"
     },
     {
       "column_name": "language_id",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "rental_duration",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "rental_rate",
-      "data_type": "numeric"
+      "data_type": "float64"
     },
     {
       "column_name": "length",
-      "data_type": "smallint"
+      "data_type": "int64"
     },
     {
       "column_name": "replacement_cost",
-      "data_type": "numeric"
+      "data_type": "float64"
     },
     {
       "column_name": "title",
-      "data_type": "character varying"
+      "data_type": "object"
     },
     {
       "column_name": "description",
